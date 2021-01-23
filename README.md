@@ -1,6 +1,6 @@
 # Dynamic Website Design for a Manufacturing Company
 ## AIM:
-To design a dynamic website for a chip manufacturing company.
+To design a dynamic website for a clothes manufacturing company.
 
 ## DESIGN STEPS:
 ### Step 1: 
@@ -69,13 +69,15 @@ Publish the website in the given URL.
     <h1>About Us</h1>
     <img src="/static/images/a1.jpg" alt="Building">
     <div class="contenttext">
-          Uzma manufacturing is a major industry. It is largely based on the conversion of fibre into yarn, yarn into fabric. These are then dyed or printed, fabricated into clothes which are then converted into useful goods such as clothing, household items, upholstery and various industrial products.Different types of fibres are used to produce yarn. Cotton remains the most important natural fibre, so is treated in depth. There are many variable processes available at the spinning and fabric-forming stages coupled with the complexities of the finishing and colouration processes to the production of a wide range of products.The producing sectors build upon a wealth of clothing technology some of which, like the loom, the cotton gin, and the sewing machine heralded industrialization not only of the previous textile manufacturing practices.    <ul>
-        <li>Levi’s</li>
+            Uzma manufacturing is a major industry. It is largely based on the conversion of fibre into yarn, yarn into fabric. These are then dyed or printed, fabricated into clothes which are then converted into useful goods such as clothing, household items, upholstery and various industrial products it summarizes the types of trade and industry along the production and life chain of clothing and garments, starting with the textile industry (producers of cotton, wool, fur, and synthetic fibre), embellishment using embroidery, via the fashion industry to apparel retailers up to trade with second-hand clothes and textile recycling. The producing sectors build upon a wealth of clothing technology some of which, like the loom, the cotton gin, and the sewing machine heralded industrialization not only of the previous textile manufacturing practices.Different types of fibres are used to produce yarn. Cotton remains the most important natural fibre, so is treated in depth. There are many variable processes available at the spinning and fabric-forming stages coupled with the complexities of the finishing and colouration processes to the production of a wide range of products.
+
+       <li>Levi's</li>
         <li>Flying Machine</li>
-        <li>Allen Solly</li>
+        <li>Allen Solly </li>
         <li>Numero Uno</li>
         <li>Mufti</li>
         <li>Pepe Jeans</li>
+    
     
     </ul> 
     </div>
@@ -94,35 +96,35 @@ Publish the website in the given URL.
             <div class="itemimage">
                 <img src="/static/images/c1.jpg" alt="product image">
             </div>
-            <div class="itemname">Levi's Boys' Shirt</div>
-            <div class="itemprice">Price: Rs.7600.00 </div>
+            <div class="itemname">Levi's Sawtooth Denim Shirt</div>
+            <div class="itemprice">Price: Rs.2000.00 </div>
         </div>
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/images/c2.jpg" alt="product image">
             </div>
-            <div class="itemname">LEVI'S SHERPA TRUCKER JACKET</div>
-            <div class="itemprice">Price: Rs.9000.00 </div>
+            <div class="itemname">Levis Long Sleeve Shirt Mens Denim </div>
+            <div class="itemprice">Price: Rs.1900.00 </div>
         </div>
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/images/c3.jpg" alt="product image">
             </div>
-            <div class="itemname">Flying machine blue label surplus jeans</div>
-            <div class="itemprice">Price: Rs.1500.00</div>
+            <div class="itemname">Denim Mens Flying Machine Jeans</div>
+            <div class="itemprice">Price: Rs.1000.00</div>
         </div>
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/images/c4.jpg" alt="product image">
             </div>
             <div class="itemname">Men Black Hooded Colour Blocked Casual Jacket</div>
-            <div class="itemprice">Price: Rs.7000.00</div>
+            <div class="itemprice">Price: Rs.6000.00</div>
         </div>
         <div class="productitem">
             <div class="itemimage">
                 <img src="/static/images/c5.jpg" alt="product image">
             </div>
-            <div class="itemname">Numero Uno Men's Super Slim Jeans</div>
+            <div class="itemname">Flying Machine Men Casual Jeans</div>
             <div class="itemprice">Price: Rs.2000.00 </div>
         </div>
         <div class="productitem">
