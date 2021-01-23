@@ -99,171 +99,44 @@ Publish the website in the given URL.
 <div class="productcontent">
     <h1>Our Premium Products</h1>
     <div class="productitems">
+
+        {% for products in products %}
         <div class="productitem">
             <div class="itemimage">
-                <img src="/static/images/c1.jpg" alt="product image">
+                <img src="{{ products.photo.url }}" alt="product image" height="200" width="200">
             </div>
-            <div class="itemname">Levi's Sawtooth Denim Shirt</div>
-            <div class="itemprice">Price: Rs.2000.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c2.jpg" alt="product image">
+            <div class="productsname"><strong>PRODUCT NAME:</strong>{{ products.name }}
             </div>
-            <div class="itemname">Levis Long Sleeve Shirt Mens Denim </div>
-            <div class="itemprice">Price: Rs.1900.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c3.jpg" alt="product image">
+            <div class="productsprice"><strong>PRODUCT PRICE:</strong>{{ products.price }}
             </div>
-            <div class="itemname">Denim Mens Flying Machine Jeans</div>
-            <div class="itemprice">Price: Rs.1000.00</div>
+            
         </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c4.jpg" alt="product image">
-            </div>
-            <div class="itemname">Men Black Hooded Colour Blocked Casual Jacket</div>
-            <div class="itemprice">Price: Rs.6000.00</div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c5.jpg" alt="product image">
-            </div>
-            <div class="itemname">Flying Machine Men Casual Jeans</div>
-            <div class="itemprice">Price: Rs.2000.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c6.jpg" alt="product image">
-            </div>
-            <div class="itemname">Numero Uno Sweatshirt</div>
-            <div class="itemprice">Price: Rs.1000.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c7.jpg" alt="product image">
-            </div>
-            <div class="itemname">ECO-NEUTRAL Shirts</div>
-            <div class="itemprice">Price: Rs.1500.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c8.jpg" alt="product image">
-            </div>
-            <div class="itemname">Numero Uno Black Hoodie</div>
-            <div class="itemprice">Price: Rs.1500.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c9.jpg" alt="product image">
-            </div>
-            <div class="itemname">Numero Uno White And Black Collar Checked Casual Shirt</div>
-            <div class="itemprice">Price: Rs.2000.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c10.jpg" alt="product image">
-            </div>
-            <div class="itemname">Mufti brand t shirt...</div>
-            <div class="itemprice">Price: Rs.1000.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c11.jpg" alt="product image">
-            </div>
-            <div class="itemname">Surplus Mufti Shirts, Size: M-4XL</div>
-            <div class="itemprice">Price: Rs.1200.00 </div>
-        </div>
-        <div class="productitem">
-            <div class="itemimage">
-                <img src="/static/images/c12.jpg" alt="product image">
-            </div>
-            <div class="itemname"> Black clue pepe jeans</div>
-            <div class="itemprice">Price: Rs.1500.00 </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
-{% endblock  %}
+{% endblock %}
 ```
 ## people.html:
 ```
 {% extends "mywebsite/base.html" %}
 
 {% block content %}
-<div class="peoplecontent">
-    <h1>OUR EXECUTIVE LEADERSHIP TEAM</h1>
+
+<h1 id="Ex">Our Team Executives</h1>
+<div class="container">
+
+    {% for people in peoples %}
+
+    <div class="peoplelist">
+        <img src="{{ people.photo.url }}" alt="executive image" width="250" height="200">
+        <div class="membername"><strong><u>EXECUTIVE</u>:{{ people.name }}</strong>
+        </div>
+        <div class="designation"><strong><u>DESIGNATION</u>:{{ people.designation }}
+            </strong></div>
+    </div>
+    {% endfor %}
 </div>
-<div class="peoplelists">
-    <div class="peoplelist">
-        <div class="peopleimage">
-            <img src="/static/images/d2.jpg" alt="people image" width="300" height="300">
-        </div>
-        <div class="peoplename">
-            <h2>ABDUL</h2>
-        </div>
-        <div class="peoplepost">
-            <h3>(C.E.O)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d1.jpg" alt="people image" width="300" height="300">
-        </div>
-        <div class="peoplename">
-            <h2>MARTIN</h2>
-        </div>
-        <div class="peoplepost">
-            <h3>(SENIOR VICE PRESIDENT)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d3.jpg" alt="product image" width="300" height="300">
-        </div>
-        <div class="peoplename">
-            <h2>ROBERT</h2>
-        </div>
-        <div class="peoplepost">
-            <h3>(CHEIF DESIGNER OFFICER)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d5.jpg" alt="product image" width="300" height="300">
-        </div>
-        <div class="itemname">
-            <h2>FAZAL KHAN</h2>
-        </div>
-        <div class="itemprice">
-            <h3>(CHEIF OPERATING OFFICER)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d4.jpg" alt="product image" width="300" height="300">
-        </div>
-        <div class="peoplename">
-            <h2>DAVID</h2>
-        </div>
-        <div class="peoplepost">
-            <h3>(VICE PRESIDENT MARKETING)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d6.jpg" alt="product image" width="300" height="300">
-        </div>
-        <div class="itemname">
-            <h2>DAN</h2>
-        </div>
-        <div class="itemprice">
-            <h3>(PRODUCTION SUPERVISOR)</h3>
-        </div>
-    </div>
-</div>
-{% endblock  %}
+{% endblock %}
 ```
 ## contactus.html:
 ```
@@ -298,6 +171,10 @@ Publish the website in the given URL.
 
 ![output](./static/images/output6.png)
 
+## ADMIN PAGE
+![output](./static/images/admin1.png)
+
+![output](./static/images/admin2.png)
 
 ## CODE VALIDATION REPORT:
 ![output](./static/images/report1.png)

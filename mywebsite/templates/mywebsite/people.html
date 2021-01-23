@@ -1,75 +1,19 @@
 {% extends "mywebsite/base.html" %}
 
 {% block content %}
-<div class="peoplecontent">
-    <h1>OUR EXECUTIVE LEADERSHIP TEAM</h1>
+
+<h1 id="Ex">Our Team Executives</h1>
+<div class="container">
+
+    {% for people in peoples %}
+
+    <div class="peoplelist">
+        <img src="{{ people.photo.url }}" alt="executive image" width="250" height="200">
+        <div class="membername"><strong><u>EXECUTIVE</u>:{{ people.name }}</strong>
+        </div>
+        <div class="designation"><strong><u>DESIGNATION</u>:{{ people.designation }}
+            </strong></div>
+    </div>
+    {% endfor %}
 </div>
-<div class="peoplelists">
-    <div class="peoplelist">
-        <div class="peopleimage">
-            <img src="/static/images/d2.jpg" alt="people image" width="300" height="300">
-        </div>
-        <div class="peoplename">
-            <h2>ABDUL</h2>
-        </div>
-        <div class="peoplepost">
-            <h3>(C.E.O)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d1.jpg" alt="people image" width="300" height="300">
-        </div>
-        <div class="peoplename">
-            <h2>MARTIN</h2>
-        </div>
-        <div class="peoplepost">
-            <h3>(SENIOR VICE PRESIDENT)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d3.jpg" alt="product image" width="300" height="300">
-        </div>
-        <div class="peoplename">
-            <h2>ROBERT</h2>
-        </div>
-        <div class="peoplepost">
-            <h3>(CHEIF DESIGNER OFFICER)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d5.jpg" alt="product image" width="300" height="300">
-        </div>
-        <div class="itemname">
-            <h2>FAZAL KHAN</h2>
-        </div>
-        <div class="itemprice">
-            <h3>(CHEIF OPERATING OFFICER)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d4.jpg" alt="product image" width="300" height="300">
-        </div>
-        <div class="peoplename">
-            <h2>DAVID</h2>
-        </div>
-        <div class="peoplepost">
-            <h3>(VICE PRESIDENT MARKETING)</h3>
-        </div>
-    </div>
-    <div class="peoplelist">
-        <div class="itemimage">
-            <img src="/static/images/d6.jpg" alt="product image" width="300" height="300">
-        </div>
-        <div class="itemname">
-            <h2>DAN</h2>
-        </div>
-        <div class="itemprice">
-            <h3>(PRODUCTION SUPERVISOR)</h3>
-        </div>
-    </div>
-</div>
-{% endblock  %}
+{% endblock %}
