@@ -296,7 +296,7 @@ Publish the website in the given URL.
 
 ![output](./static/images/output5.png)
 
-![output](./static/images/output7.png)
+![output](./static/images/output6.png)
 
 
 ## CODE VALIDATION REPORT:
