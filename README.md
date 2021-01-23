@@ -286,7 +286,7 @@ Publish the website in the given URL.
 ```    
 
 ## OUTPUT:
-![output](./static/images/output11.jpg)
+![output](./static/images/output1.png)
 
 ![output](./static/images/output2.png)
 
