@@ -157,6 +157,46 @@ Publish the website in the given URL.
 </div>
 {% endblock  %}
 ```    
+## MODELS.PY
+```
+from django.db import models
+from django.contrib import admin
+
+# Create your models here.
+class People(models.Model):
+    name = models.CharField(max_length=100)
+    designation = models.CharField(max_length=100)
+    photo = models.ImageField(upload_to='photos/')
+
+class PeopleAdmin(admin.ModelAdmin):
+    list_display = ('name', 'designation', 'photo')
+
+class Product(models.Model):
+    name = models.CharField(max_length=100)
+    price = models.IntegerField()
+    photo = models.ImageField(upload_to='photos/')
+
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ('name', 'price', 'photo')
+    
+```
+
+## ADMIN.PY
+```
+from django.contrib import admin
+from .models import People,PeopleAdmin
+from .models import Product,ProductAdmin
+
+# Register your models here.
+
+admin.site.register(People,PeopleAdmin)
+
+admin.site.register(Product,ProductAdmin)
+
+```
+
+
+
 
 ## OUTPUT:
 ![output](./static/images/output1.png)
