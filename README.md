@@ -70,8 +70,8 @@ Publish the website in the given URL.
     <img src="/static/images/a1.jpg" alt="Building">
     <div class="contenttext">
             Uzma manufacturing is a major industry. It is largely based on the conversion of fibre into yarn, yarn into fabric. These are then dyed or printed, fabricated into clothes which are then converted into useful goods such as clothing, household items, upholstery and various industrial products it summarizes the types of trade and industry along the production and life chain of clothing and garments, starting with the textile industry (producers of cotton, wool, fur, and synthetic fibre), embellishment using embroidery, via the fashion industry to apparel retailers up to trade with second-hand clothes and textile recycling. The producing sectors build upon a wealth of clothing technology some of which, like the loom, the cotton gin, and the sewing machine heralded industrialization not only of the previous textile manufacturing practices.Different types of fibres are used to produce yarn. Cotton remains the most important natural fibre, so is treated in depth. There are many variable processes available at the spinning and fabric-forming stages coupled with the complexities of the finishing and colouration processes to the production of a wide range of products.
-
-       <li>Levi's</li>
+       <ul>
+        <li>Levi's</li>
         <li>Flying Machine</li>
         <li>Allen Solly </li>
         <li>Numero Uno</li>
@@ -279,28 +279,22 @@ Publish the website in the given URL.
 ```
 
 ## OUTPUT:
-![output](./static/images/f1.jpg)
+![output](./static/images/output1.png)
+![output](./static/images/output2.png)
+![output](./static/images/output3.png)
+![output](./static/images/output4.png)
+![output](./static/images/output5.png)
+![output](./static/images/output6.png)
+![output](./static/images/output7.png)
 
-![output](./static/images/f2.jpg)
 
-![output](./static/images/f3.jpg)
-
-![output](./static/images/f4.jpg)
-
-![output](./static/images/f5.jpg)
-
-![output](./static/images/f6.jpg)
-
-![output](./static/images/f7.jpg)
-
-![output](./static/images/f8.jpg)
-
-![output](./static/images/f9.jpg)
-
-![output](./static/images/f11.jpg)
-
-![output](./static/images/f12.jpg)
+## CODE VALIDATION REPORT:
+![output](./static/img/report1.png)
+![output](./static/img/report2.png)
+![output](./static/img/report3.png)
+![output](./static/img/report4.png)
+![output](./static/img/report5.png)
 
 
 ## RESULT:
-Thus a website is designed for the chip manufacturing company and is hosted in the URL http://khadar.student.saveetha.in:8000/. HTML code is validated.
+Thus a website is designed for the clothes manufacturing company and is hosted in the URL http://khadar.student.saveetha.in:8000/. HTML code is validated.
