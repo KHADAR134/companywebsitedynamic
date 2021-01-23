@@ -296,9 +296,10 @@ Publish the website in the given URL.
 
 ![output](./static/images/output5.png)
 
-![output](./static/images/output6.png)
-
 ![output](./static/images/output7.png)
+
+![output](./static/images/output8.png)
+
 
 ## CODE VALIDATION REPORT:
 ![output](./static/images/report1.png)
@@ -310,6 +311,7 @@ Publish the website in the given URL.
 ![output](./static/images/report4.png)
 
 ![output](./static/images/report5.png)
+
 
 
 ## RESULT:
