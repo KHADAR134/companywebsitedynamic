@@ -1,6 +1,6 @@
-# Dynamic Website Design for a Manufacturing Company
-## AIM:
-To design a dynamic website for a clothes manufacturing company.
+# Web Design for a Manufacturing Company
+## AIM: 
+To design a static website for a clothes manufacturing company.
 
 ## DESIGN STEPS:
 ### Step 1: 
@@ -15,11 +15,7 @@ Choose the appropriate style and color scheme.
 Validate the layout in various browsers.
 ### Step 6:
 Validate the HTML code.
-### Step 7:
-Create a database model and migrate the database.
-### Step 8:
-Retrieve data from database and display it in a dynamic webpage.
-### Step 9:
+### Step 6:
 Publish the website in the given URL.
 
 ## PROGRAM:
@@ -60,28 +56,39 @@ Publish the website in the given URL.
 
 </html>
 ```
+
 ### home.html
 ```
 {% extends "mywebsite/base.html" %}
 
 {% block content %}
-    <div class="homecontent">    
+<div class="homecontent">
     <h1>About Us</h1>
     <img src="/static/images/a1.jpg" alt="Building">
     <div class="contenttext">
-            Uzma manufacturing is a major industry. It is largely based on the conversion of fibre into yarn, yarn into fabric. These are then dyed or printed, fabricated into clothes which are then converted into useful goods such as clothing, household items, upholstery and various industrial products it summarizes the types of trade and industry along the production and life chain of clothing and garments, starting with the textile industry (producers of cotton, wool, fur, and synthetic fibre), embellishment using embroidery, via the fashion industry to apparel retailers up to trade with second-hand clothes and textile recycling. The producing sectors build upon a wealth of clothing technology some of which, like the loom, the cotton gin, and the sewing machine heralded industrialization not only of the previous textile manufacturing practices.Different types of fibres are used to produce yarn. Cotton remains the most important natural fibre, so is treated in depth. There are many variable processes available at the spinning and fabric-forming stages coupled with the complexities of the finishing and colouration processes to the production of a wide range of products.
-       <ul>
+        Uzma manufacturing is a major industry. It is largely based on the conversion of fibre into yarn, yarn into
+        fabric. These are then dyed or printed, fabricated into clothes which are then converted into useful goods such
+        as clothing, household items, upholstery and various industrial products it summarizes the types of trade and
+        industry along the production and life chain of clothing and garments, starting with the textile industry
+        (producers of cotton, wool, fur, and synthetic fibre), embellishment using embroidery, via the fashion industry
+        to apparel retailers up to trade with second-hand clothes and textile recycling. The producing sectors build
+        upon a wealth of clothing technology some of which, like the loom, the cotton gin, and the sewing machine
+        heralded industrialization not only of the previous textile manufacturing practices.Different types of fibres
+        are used to produce yarn. Cotton remains the most important natural fibre, so is treated in depth. There are
+        many variable processes available at the spinning and fabric-forming stages coupled with the complexities of the
+        finishing and colouration processes to the production of a wide range of products.
+     <ul>
         <li>Levi's</li>
         <li>Flying Machine</li>
         <li>Allen Solly </li>
         <li>Numero Uno</li>
         <li>Mufti</li>
         <li>Pepe Jeans</li>
-    
-    
-    </ul> 
+
+
+        </ul>
     </div>
-    </div>
+</div>
 {% endblock  %}
 ```
 ### products.html
@@ -180,7 +187,7 @@ Publish the website in the given URL.
 </div>
 {% endblock  %}
 ```
-### people.html
+## people.html:
 ```
 {% extends "mywebsite/base.html" %}
 
@@ -258,7 +265,7 @@ Publish the website in the given URL.
 </div>
 {% endblock  %}
 ```
-### contactus.html
+## contactus.html:
 ```
 {% extends "mywebsite/base.html" %}
 
@@ -276,7 +283,7 @@ Publish the website in the given URL.
     </h2>
 </div>
 {% endblock  %}
-```
+```    
 
 ## OUTPUT:
 ![output](./static/images/output1.png)
@@ -293,9 +300,8 @@ Publish the website in the given URL.
 
 ![output](./static/images/output7.png)
 
-
 ## CODE VALIDATION REPORT:
-![output](./static/images/report1.png) 
+![output](./static/images/report1.png)
 
 ![output](./static/images/report2.png)
 
@@ -304,6 +310,7 @@ Publish the website in the given URL.
 ![output](./static/images/report4.png)
 
 ![output](./static/images/report5.png)
+
 
 ## RESULT:
 Thus a website is designed for the clothes manufacturing company and is hosted in the URL http://khadar.student.saveetha.in:8000/. HTML code is validated.
