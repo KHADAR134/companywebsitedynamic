@@ -298,8 +298,6 @@ Publish the website in the given URL.
 
 ![output](./static/images/output7.png)
 
-![output](./static/images/output8.png)
-
 
 ## CODE VALIDATION REPORT:
 ![output](./static/images/report1.png)
