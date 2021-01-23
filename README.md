@@ -295,15 +295,15 @@ Publish the website in the given URL.
 
 
 ## CODE VALIDATION REPORT:
-![output](./static/img/report1.png) 
+![output](./static/images/report1.png) 
 
-![output](./static/img/report2.png)
+![output](./static/images/report2.png)
 
-![output](./static/img/report3.png)
+![output](./static/images/report3.png)
 
-![output](./static/img/report4.png)
+![output](./static/images/report4.png)
 
-![output](./static/img/report5.png)
+![output](./static/images/report5.png)
 
 ## RESULT:
 Thus a website is designed for the clothes manufacturing company and is hosted in the URL http://khadar.student.saveetha.in:8000/. HTML code is validated.
