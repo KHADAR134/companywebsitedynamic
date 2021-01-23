@@ -280,21 +280,30 @@ Publish the website in the given URL.
 
 ## OUTPUT:
 ![output](./static/images/output1.png)
+
 ![output](./static/images/output2.png)
+
 ![output](./static/images/output3.png)
+
 ![output](./static/images/output4.png)
+
 ![output](./static/images/output5.png)
+
 ![output](./static/images/output6.png)
+
 ![output](./static/images/output7.png)
 
 
 ## CODE VALIDATION REPORT:
-![output](./static/img/report1.png)
-![output](./static/img/report2.png)
-![output](./static/img/report3.png)
-![output](./static/img/report4.png)
-![output](./static/img/report5.png)
+![output](./static/img/report1.png) 
 
+![output](./static/img/report2.png)
+
+![output](./static/img/report3.png)
+
+![output](./static/img/report4.png)
+
+![output](./static/img/report5.png)
 
 ## RESULT:
 Thus a website is designed for the clothes manufacturing company and is hosted in the URL http://khadar.student.saveetha.in:8000/. HTML code is validated.
