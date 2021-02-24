@@ -1,6 +1,6 @@
-# Web Design for a Manufacturing Company
+# Dynamic Web Design for a Manufacturing Company
 ## AIM: 
-To design a static website for a clothes manufacturing company.
+To design a dynamic website for a clothes manufacturing company.
 
 ## DESIGN STEPS:
 ### Step 1: 
